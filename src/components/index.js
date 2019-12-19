@@ -1,4 +1,4 @@
 import Button from "./Button/Button";
-import Breadcrumbs from "./Breadcrumbs/Breadcrumbs";
+import Switch from "./Switch/Switch";
 
-export { Button, Breadcrumbs };
+export { Button, Switch };

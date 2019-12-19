@@ -60,8 +60,8 @@ Button.propTypes = {
 
 Button.defaultProps = {
   onClick: null,
-  color: COLORS.PRIMARY,
-  size: ""
+  color: COLORS.BLUE,
+  size: SIZES.LARGE
 };
 
 export default Button;
