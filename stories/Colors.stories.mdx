@@ -1,0 +1,20 @@
+import { action } from "@storybook/addon-actions";
+import { Button } from "@storybook/react/demo";
+import {
+  Story,
+  Meta,
+  ColorPalette,
+  ColorItem
+} from "@storybook/addon-docs/blocks";
+
+import { theme } from "../src/utils/constants";
+
+<Meta title="Overview|Color" />
+
+# Colors
+
+<ColorPalette>
+  {Object.entries(theme.colors).map(([key, value]) => (
+    <ColorItem title={`theme.colors.${key}`} subtitle="Red" colors={[value]} />
+  ))}
+</ColorPalette>
